@@ -1,0 +1,23 @@
+[package]
+name = "trasactions"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+csv = {version="1.1"}
+serde =  { version="1.0", features=["derive"]}
+rust_decimal = { version="1.16"}
+rust_decimal_macros = {version="1.16"}
+log = {version="0.4"}
+env_logger = { version="0.9"}
+anyhow = { version="1.0"}
+thiserror = { version="1.0"}
+crossbeam = { version="0.8"}
+fnv = { version="1.0"}
+
+
+
+
