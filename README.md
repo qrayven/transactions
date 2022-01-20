@@ -1,5 +1,11 @@
 # Transactions processor
 
+## Description
+
+This is an implementation of simple payment engine that reads a series of transactions from CSV, updates the client accounts, handles the disputes and chargeback and outputs the state of clients accounts as a CSV.
+
+There is an assumption the transaction is a `u32` value.
+
 ## How to run
 
 ```sh
@@ -13,6 +19,7 @@ Most of the edge-cases is covered by unit tests in `Payments` module
 ```sh
 cargo test
 ```
+
 
 ## Assumptions
 
